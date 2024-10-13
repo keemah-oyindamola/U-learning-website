@@ -2,14 +2,6 @@ const mongoose = require('mongoose')
 const {cloudinary} = require("../utils/cloudinary")
 const coursemodel = require("../model/coursemodel")
 
-// const cloudinary = require("cloudinary").v2
-
-// cloudinary.config({
-//     cloud_name: 'de7zf09m8',
-//     api_key: '393211751517818',
-//     api_secret: '1oXDrdiDvo0ZM95qySXjDHJGNEg'
-// })
-
 
 const getcourseinfo = async (req, res) => {
     try {
